@@ -1,0 +1,195 @@
+
+
+.edicionmobile{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+body {
+    background-color: black;
+}
+
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px;
+    cursor: pointer;
+}
+
+h1 span {
+    transition: 1.5s ease;
+    
+}
+
+h1:hover span:nth-child(1){
+    margin-right: 20px;
+}
+
+h1:hover span:nth-child(2){
+    margin-left: 40px;
+}
+
+h1:hover span {
+    color: aliceblue;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff
+}
+
+h2 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 3px;
+    cursor: pointer;
+}
+
+h2 span {
+    transition: 1.5s ease;
+    
+}
+
+h2:hover span:nth-child(1){
+    margin-right: 20px;
+}
+
+h2:hover span:nth-child(2){
+    margin-left: 40px;
+}
+
+h2:hover span {
+    color: aliceblue;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff
+}
+
+.iphone12t {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    position:relative;
+    text-align: center;
+    top: 70px;
+    width: 900px;
+    left: 120px;
+}
+
+.caracteristica12 {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+    position:relative;
+    text-align: left;
+    top: 70px;
+    width: 700px;
+    left: 400px;
+} 
+
+.iphone12i {
+    position: relative;
+    left: 1100px;
+    bottom: 350px;
+}
+
+
+.precioestilo{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
+.button {
+    background: linear-gradient(102deg, #3a4077 40%, #604af3 60% );
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    min-width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5 infinite;
+}
+
+@keyframes pulse {
+    10% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}
+
+.iphone13t {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    position:relative;
+    text-align: center;
+    top: 70px;
+    width: 900px;
+    left: 120px;
+}
+
+.caracteristicas13 {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+    position:relative;
+    text-align: left;
+    top: 70px;
+    width: 700px;
+    left: 250px;
+}
+
+.edicionimageniphone13 {
+    display: flex;
+    position: relative;
+    left: 1100px;
+    bottom: 450px;
+    width: 900px;
+    height: 600px;
+
+}
+
+.precioestilo2{
+    position: relative;
+    text-align: center;
+    bottom: 350px;
+}
+.button2 {
+    background: linear-gradient(102deg, #3a4077 40%, #634df3 60% );
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    min-width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5 infinite;
+}
+
+@keyframes pulse {
+    10% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}
