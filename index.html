@@ -9,62 +9,164 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body class="body">
-
-    <header class="pagina1">
-        
-        <img class="logo" src="imagenes\marcatel.png.png">
+    <header class="headerindex">
         <nav>
-            <div class="arriba">
-            <ul>
-                <li><a href="index.html">Inicio</a>
-                <li><a href="pages/micuenta.html">Mi cuenta</a>
-                <li><a href="pages/contacto.html">Contacto</a>
-                <li><a href="pages/Nuestrosproductos.html">Nuestros productos</a>
-                <li><a href="pages/Soporte.html">Soporte</a>
-            </ul>
-        </div>
+                <a href="index.html">Inicio</a>
+                <a href="pages/micuenta.html">Mi cuenta</a>
+                <a href="pages/contacto.html">Contacto</a>
+                <a href="pages/Nuestrosproductos.html">Nuestros productos</a>
+                <a href="pages/Soporte.html">Soporte</a>
         </nav>
+        <section class="textos-header">
+            <h1>ESTO ES MARCATEL</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C163.37,151.48 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>"
     </header>
-    <div class="edicion">
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Descripcion</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="imagenes/idea.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span class="span">1</span>¿Quienes somos?</h3>
+                    <p>Somos la empresa de celulares de mayor alcance global actualmente y ¿Por qué? Porque contamos con un equipo de trabajo enorme, para cubrir todas las areas.</p>
+                    <h3><span class="span">2</span>¿Que hacemos?</h3>
+                    <p>Nosotros, cumplimos el sueño de aquella persona que quiera un dispositivo movil. Nos encargamos de que el dispositivo este en funcionamiento y hacer llegar al cosumidor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+            <h2 class="titulo">Portafolio</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="imagenes/carga2.png" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Nuestro Trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/oficina-portafolio.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Este es el Futuro</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/minimalista2.png" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Calidad del Prudcto</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/oficina.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Nuestras Oficinas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/minimals.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Nuestras Propuestas</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/oficina2-portafolio.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Oficinas Particulares</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/oficina3-portafolio.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Trabajo Remoto</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="imagenes/imagenportafolio.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="imagenes/icono.svg" alt="">
+                        <p>Nuestro Empleados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="imagenes/cliente.jpg">
+                    <div class="contenido-texto-card">
+                        <h4>Laura Lopez</h4>
+                        <p>Muy contenta con mi producto, llego a tiempo y me mantuvieron siempre al tanto sobre el envio.</p>
+                    </div>
+                </div> 
+                <div class="card">
+                    <img src="imagenes/cliente2.jpg">
+                    <div class="contenido-texto-card">
+                        <h4>Maria Antonieta</h4>
+                        <p>Tuve problemas con mi pedido y me lo resolvieron muy rapido, fueron eficaces en sus acciones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor2">
+                <h2 class="titulo">Nuestros Servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="imagenes/idea.svg" alt="">
+                        <h3>Propuestas</h3>
+                        <p>Nuestras propuestas las puedes ver en <a href="pages/Nuestrosproductos.html">Nuestros productos</a></p>
+                        <div class="servicio-ind">
+                            <img src="imagenes/envio.svg" alt="">
+                            <h3>Envio</h3>
+                            <p>El envio es gratis, nosotros nos encargamos de que llegue a tu domicilio</p>
+                            <div class="servicio-ind">
+                                <img src="imagenes/msj.svg" alt="">
+                                <h3>Atencion al Cliente</h3>
+                                <p>En el caso de fallo del dispositivo, nosotros nos hacemos cargo de ello. Solo hay que comunicarse en <a href="pages/Soporte.html">Soporte</a> </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-        <img src="imagenes\minimalista2.png" class="imagen">
-        <img src="imagenes\madera2.png"class="imagen2">
-        <img src="imagenes\madera.png"class="imagen3">
-        
-    </div>
-    <h1>ESTO ES MARCATEL</h1>
-    <div class="modi">
-        
-        <img  src="imagenes\iPhonemini.png" class="imagen4"> <p class="letra"> Nosotros somos <b>MarcaTel</b>. Esta empresa surgio con la idea de solucionar problematicas que todo
-            el mundo ha tenido alguna vez, <i>falta de bateria</i>. Por eso nuestros dispositivos, tienen la capacidad
-            de erradicar este problema. Las baterias normales transforma la energía eléctrica que recibe
-            en energía química a partir de la reacción que se produce cuando dos materiales diferentes, como los de las placas
-        positiva y negativa, se sumergen en el electrolito, una solución de ácido sulfúrico y agua.
-        Nosotros creamos Las baterías de litio-metal duran el doble que las actuales, y ya se comercializan.</p>
-    </div>
-    <img src="imagenes\corazoncelular.png" class="corazon">
-    <p class="modi2"> Según explican en 'Andro4all' , una batería de plomo dura entre 300 y 500 ciclos de carga. 
-        Aunque este cálculo no es exacto, si cada día se consume un ciclo completo, una batería podría durar entre año y medio y dos años. Por ese mismo motivo, estas baterias 
-        que nosotros fabricamos junto a esta marca.  
-        
-    </p>
-    <div>
-        <h2 class="titulo2">CONTACTANOS</h2>
-    </div>
-    <hr>
-    <footer class="abajo">
-        <ul>
-            <p>Telefono: 1150099759
-            <p>Emai: Marcatel@gmail.com
-                <p>Ubicacion: Jose C Paz. Roque Saenz peña 3851.
-        </ul>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>1150099759</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>Marcatel@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Roque Saenz peña 3851, Jose c Paz. Buenos Aires</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Marcatel Desing ' Martin Gil Santangelo</h2>
+    </footer>
     
-</footer>
-
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
 
 

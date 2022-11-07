@@ -5,22 +5,39 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>MarcaTel</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="icon" href="proyecto\marcatel.icon.png">
+    <link rel="icon" href="../imagenes/Img/marcatel.icon.png">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <link rel="stylesheet" href="css/estilo.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 </head>
-<body> 
-    
-    <header>
-        
 
-        <h2>Mi cuenta</h2>
+<header class="diseñoheader">
+    <div class="diseñodelnav">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="micuenta.html">Mi cuenta</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li><a href="../pages/nuestrosproductos.html">Nuestro productos</a></li>
+            <li><a href="../pages/soporte.html">Soporte</a></li>
+        </ul>
+    </div>
+
+    </nav>
+</header>
 
 
-    <hr>
-
+<body class="adentro"> 
+    <section class="form-login">
+        <h5>LOGIN</h5>
+        <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+        <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
+        <input class="buttons" type="submit" name="" value="Ingresar">
+        <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+    </section>
 </body>
 
 </html>
