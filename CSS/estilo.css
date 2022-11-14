@@ -63,8 +63,11 @@ header .textos-header {
 }
 
 .textos-header h1 {
-    font-size: 50px;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
     color: #000;
 }
 .contenedor-sobre-nosotros {
@@ -216,11 +219,11 @@ header .textos-header {
 
 
 .servicio-ind img {
-    width: 50%;
+    width: 40%;
 }
 
 .servicio-ind h3 {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .servicio-ind p {
@@ -228,7 +231,7 @@ header .textos-header {
 }
 
 .servicio-ind p {
-    font-weight: 200;
+    font-weight: 500;
     text-align: justify;
 }
 
@@ -385,14 +388,13 @@ footer {
     .content-foo p{
         color: #ccc;
         border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .titulo-final {
-        font-size: 20px;
+        font-size: 10px;
     }
 }
-
 
 
 
@@ -510,13 +512,78 @@ footer {
     text-decoration: underline;
 }
 
+.footermicuenta {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin-top: 300px;
+}
+
+.contenedor-footer2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #2DAB96;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color:#9e9797
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .bodycontacto{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #000;
+    background-image: url(../imagenes/lamparita.jpg);
+    background-repeat:no-repeat;
+    width: 100%;
+    background-position: 25% 50%;
+}
+
+.bodycontacto2 {
+    display: flex; 
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 25% 55%;
 }
 
 .tittleprincipal {
@@ -531,8 +598,10 @@ font-family: 'Prompt', sans-serif;
     padding: .5em 0 .4em;
     color: white;
     background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-
 
 
 .diseñoheader2 {
@@ -552,7 +621,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -562,12 +631,9 @@ nav ul li a:hover {
 }
 
 
-
-
 .gallery {
     object-fit: cover;
-    padding-bottom: 3em;
-    padding-top: 1em;
+    padding: 1em 1em 1em 1em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows:250px;
@@ -583,7 +649,70 @@ nav ul li a:hover {
     height: 100%;
 }
 
+.tituloubi {
+    list-style-type: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: .5em 0 .4em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
 
+
+.tituloubi a {
+    color: white;
+}
+
+.tituloubi a:hover {
+    color: #2DAB96;
+    transition: .3s;
+}
+
+
+.mapa {
+    padding-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards2 .card2 {
+    background: #414141;
+    display: flex;
+    width: 25%;
+    height: 200px;
+    align-items: center;
+    justify-content: space space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    padding-left: 20px;
+}
+
+.contenido-texto-card2 h4 {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cards2 .card2 > .contenido-texto-card2 {
+    width: 90%;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.cards2 .card2 > .contenido-texto-card2 p {
+    font-weight:400;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+}
 
 
 
