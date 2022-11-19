@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf5fb720-c700-4472-8c2b-ef2120ccd784" name="Changes" comment="" />
+    <list default="true" id="bf5fb720-c700-4472-8c2b-ef2120ccd784" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Soporte.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Soporte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/micuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/micuenta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nuestrosproductos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nuestrosproductos.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +22,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
