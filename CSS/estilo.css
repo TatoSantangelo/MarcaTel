@@ -1,75 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
+.body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+padding: 0;
+height: 900px;
+background: -webkit-linear-gradient(to right, hwb(150 21% 78% / 0.603), hsla(165, 91%, 21%, 0.411)), url(../imagenes/fondomujer.jpg); 
+background: linear-gradient(to right, hwb(160 15% 84% / 0.603), hsla(160, 86%, 23%, 0.438)), url(../imagenes/fondomujer.jpg);
+background-size: cover;
+background-attachment: fixed;
 }
 
-.contenedor {
-    padding: 60px 0px;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.titulo { 
-    color:#2DAB96;
-    font-size: 30px;
+.elnav2 ul li {
+    justify-content: space-between;
     text-align: center;
-    margin-bottom: 60px;
+    display: inline-block;
+    padding: 40px 50px;
 }
 
-.headerindex{
-    width: 100%;
-    height: 900px;
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hwb(168 93% 5% / 0.603), hsla(165, 91%, 42%, 0.521)), url(../imagenes/fondomujer.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hwb(168 93% 5% / 0.603), hsla(160, 87%, 46%, 0.521)), url(../imagenes/fondomujer.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-nav {
-    text-align: right;
-    font-size: larger;
-    padding: 30px 50px 0 0;
-}
-
-nav > a {
-    color: #000;
-    font-weight: 300;
+.elnav2 ul li a {
+    color: white;
     text-decoration: none;
-    margin-right: 10px;
+    font-size: larger;
 }
 
-nav > a:hover {
-    text-decoration: underline;
+.diseñoheader2 {
+    font-family:'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 28%;
+    padding-right: 10%; 
 }
 
+.elnav ul li {
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.elnav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.elnav ul li a:hover {
+    color: #2DAB96;
+    transition: .3s;
+}
 
 header .textos-header {
-    display: flex;
     height: 430px;
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
 }
 
 .textos-header h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    text-align: center;
     font-size: 70px;
     font-weight: 500;
-    color: #000;
+    color: rgb(37, 35, 35);
 }
+
 .contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
@@ -101,6 +96,7 @@ header .textos-header {
 }
 
 .contenido-textos p {
+    color: white;
     padding: 0px 0px 30px 15px;
     font-weight: 500;
     text-align: justify;
@@ -108,14 +104,23 @@ header .textos-header {
 }
 
 
-.wave {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 .portafolio { 
     background: #f2f2f2;
+}
+
+.titulo { 
+    color:#0d0e0d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contenedor {
+    padding: 60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 }
 
 .galeria-port {
@@ -254,6 +259,7 @@ footer {
 }
 
 .content-foo {
+
     text-align: center;
 }
 
@@ -276,7 +282,7 @@ footer {
 }
 
 @media screen and (max-width:900px){
-    .headerindex {
+    .diseñoheader2 {
         background-position: center;
         flex-direction: column;
         justify-content: center;
@@ -424,47 +430,17 @@ footer {
 
 
 
-
-
-
-
-
-.diseñoheader {
-    font-family:'Prompt', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 28%;
-    padding-right: 10%; 
+.adentro {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imagenes/Minimalistanegro.png");
+    background-attachment: fixed;
 }
 
-.elnav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 20px 40px;
-}
-
-.elnav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.elnav ul li a:hover {
-    color: #2DAB96;
-    transition: .3s;
-}
 
 .form-login {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.adentro {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../imagenes/Minimalistanegro.png");
-    background-attachment: fixed;
 }
 
 
@@ -568,7 +544,7 @@ footer {
         background-position: center;
     }
 
-    .diseñoheader {
+    .diseñoheader2 {
         text-align: center;
         width: 85%;}}
 
@@ -600,17 +576,6 @@ footer {
     background-position: 25% 50%;
 }
 
-.bodycontacto2 {
-    display: flex; 
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position: 25% 55%;
-}
-
-.tittleprincipal {
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Prompt', sans-serif;
-}
 
 
 .tittleprincipal {
@@ -619,36 +584,6 @@ font-family: 'Prompt', sans-serif;
     padding: .5em 0 .4em;
     color: white;
     background-color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}
-
-
-.diseñoheader2 {
-    font-family:'Prompt', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-left: 28%;
-    padding-right: 10%; 
-}
-
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 20px 40px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #2DAB96;
-    transition: .3s;
 }
 
 
@@ -750,9 +685,6 @@ nav ul li a:hover {
 .contenido-texto-card2 h4 {
     font-size: larger;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 
 .cards2 .card2 > .contenido-texto-card2 {
@@ -856,18 +788,15 @@ nav ul li a:hover {
 
 
 .edicionmobile {
+    background-image: url(../imagenes/logoiphone2.jpg); 
+    background-repeat:no-repeat;
+    width: 100%;
+    background-position: 90% 1%;
     background-color: #000;
 }
 
-h1{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding: 20px;
-    border: 3px;
-    cursor: pointer;
-}
+
+
 
 h1 span {
     transition: 1.5s ease;
@@ -919,6 +848,7 @@ h2:hover span {
 }
 
 .iphone12t {
+    font-style: italic;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:larger;
@@ -948,12 +878,7 @@ h2:hover span {
     bottom: 35%;
 }
 
-.edicionmobile {
-    background-image: url(../imagenes/logoiphone2.jpg); 
-    background-repeat:no-repeat;
-    width: 100%;
-    background-position: 90% 1%;
-}
+
 
 .precioestilo{
     position: relative;
@@ -990,6 +915,7 @@ h2:hover span {
 }
 
 .iphone13t {
+    font-style: italic;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:larger;
@@ -1137,16 +1063,22 @@ h2:hover span {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-.bodysoporte {
     min-height: 10vh;
     background: url(../imagenes/logoiphone.jpg) no-repeat ;
     background-size: cover;
     justify-content: center;
     align-items: center;
 }
+
+.titulo2 { 
+    color:#2DAB96;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
 
 .bodysoporte .diseñoheader3 {
     font-family: 'Open Sans', sans-serif;
